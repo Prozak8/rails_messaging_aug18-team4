@@ -11,5 +11,6 @@ Given("I am on the landing page") do
   end
   
   Then("I should be on the Homepage") do
-    pending # Write code here that turns the phrase above into concrete actions
+    expect(current_path).to eq root_path
+    binding pry
   end
