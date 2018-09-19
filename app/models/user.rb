@@ -17,4 +17,8 @@ class User < ApplicationRecord
   def mailboxer_email(object)
     email
   end
+
+  def mailboxer_password(object)
+    password
+  end
 end

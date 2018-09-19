@@ -1,3 +1,9 @@
+Given("the following user wants to sign up") do |table|
+  table.hashes.each do |user|
+    FactoryBot.create(:user, Visitor)
+  end
+end
+
 Given("I am on the landing page") do
     visit root_path
   end
