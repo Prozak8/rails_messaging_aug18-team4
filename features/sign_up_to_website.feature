@@ -1,16 +1,16 @@
 Feature: Registration
 
-As a user 
-I want to be able to register to website
+As a visitor
+In order to sign up
+I would like to be able to sign up
+
 
 Scenario: ‘Standard Registration’
-Given The following user wants to create an account
-When I am on the signup page
-Then I should see “Sign Up” 
-And I fill in "Name(required)" with "Mike Hunt"
-And I fill in "Email(required)" with "mike@hotmail.com"
-And I fill in “Password (required)” with “password”
-And I fill in “Password confirmation” with “password”
-And I press “Create”
-Then I should be on the Home page
-
+Given I am on the landing page
+When I press "Sign Up"
+And I fill in "Name" with "Mike Hunt"
+And I fill in "Email" with "mike@hotmail.com"
+And I fill in "Password" with "password"
+And I fill in "Password confirmation" with "password"
+And I press "Create"
+Then I should be on the Homepage
