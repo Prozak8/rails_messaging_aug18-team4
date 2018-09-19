@@ -7,7 +7,7 @@ I would like to be able to sign up
 
 Scenario: ‘Standard Registration’
 Given I am on the landing page
-When I press "Sign Up"
+When I press "Sign up"
 And I fill in "Name" with "Mike Hunt"
 And I fill in "Email" with "mike@hotmail.com"
 And I fill in "Password" with "password"
