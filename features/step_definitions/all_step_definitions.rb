@@ -3,11 +3,11 @@ Given("I am on the landing page") do
   end
   
   When("I press {string}") do |sign_up|
-    click_on(sign_up)
+    click_on sign_up
   end
   
-  When("I fill in {string} with {string}") do |string, string2|
-    pending # Write code here that turns the phrase above into concrete actions
+  When("I fill in {string} with {string}") do |field, data|
+    fill_in field, with: data
   end
   
   Then("I should be on the Homepage") do
