@@ -12,5 +12,4 @@ Given("I am on the landing page") do
   
   Then("I should be on the Homepage") do
     expect(current_path).to eq root_path
-    binding pry
   end
