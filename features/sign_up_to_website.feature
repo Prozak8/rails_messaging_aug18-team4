@@ -4,6 +4,10 @@ As a visitor
 In order to sign up
 I would like to be able to sign up
 
+Background: 
+    Given the follower user exists
+    | name      | email             | password       |
+    | Mike Hunt | mike@hotmail.com  | password       |
 
 Scenario: ‘Standard Registration’
 Given I am on the landing page
