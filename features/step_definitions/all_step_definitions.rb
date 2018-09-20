@@ -10,7 +10,7 @@ Given("I am on the landing page") do
     fill_in field, with: data
   end
   
-  Then("I should be on the Homepage") do
-    expect(current_path).to eq root_path
-    binding pry
+  Then("I should be on the User Registration page") do
+    expect(current_path).to eq user_registration_path
   end
+  
