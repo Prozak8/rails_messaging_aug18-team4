@@ -4,7 +4,7 @@ end
 
 Given("the following user exist") do |table|
   table.hashes.each do |person|
-  User.create!(person)
+    User.create!(person)
   end
 end
 
@@ -14,10 +14,6 @@ end
   
 When("I press {string}") do |button|
   click_on button
-end
-
-When("I click on {string}") do |link|
-  click_on link
 end
 
 When("I fill in {string} with {string}") do |field, data|

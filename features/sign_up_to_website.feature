@@ -3,7 +3,6 @@ Feature: Registration
     In order to sign up
     I would like to be able to sign up
 
-
 Scenario: ‘Standard Registration’
     Given I am on the landing page
     When I press "Sign up"
