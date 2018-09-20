@@ -10,7 +10,7 @@ Given("I am on the landing page") do
     fill_in field, with: data
   end
   
-  Then("I should be on the User Registration page") do
-    expect(current_path).to eq user_registration_path
+  Then("I should see {string}") do |expected_content|
+    expect(page).to have_content expected_content
   end
   
