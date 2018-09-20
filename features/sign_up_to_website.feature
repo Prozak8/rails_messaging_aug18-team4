@@ -14,3 +14,4 @@ And I fill in "Password" with "password"
 And I fill in "Password confirmation" with "password"
 And I press "Create"
 Then I should be on the User Registration page
+
