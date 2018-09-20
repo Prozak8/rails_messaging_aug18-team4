@@ -26,6 +26,7 @@ group :development do
   gem 'shoulda-matchers'
   gem 'spring'
   gem 'web-console', '~> 2.0'
+  gem 'launchy'
 end
 
 group :production do
