@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'factory_bot_rails'
 
 RSpec.describe User, type: :model do
     describe "db table" do
