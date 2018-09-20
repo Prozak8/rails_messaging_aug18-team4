@@ -1,5 +1,4 @@
 Feature: Registration
-
     As a visitor
     In order to sign up
     I would like to be able to sign up
