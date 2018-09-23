@@ -4,7 +4,7 @@ end
 
 Given("the following user exist") do |table|
   table.hashes.each do |person|
-  User.create!(person)
+    User.create!(person)
   end
 end
 
